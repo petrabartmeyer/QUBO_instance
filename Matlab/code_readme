@@ -1,1 +1,4 @@
-vbcvb
+This folder contains the necessary functions to solve the QUBO problem using fmincon in Matlab.
+
+The file "main_github.m" read the instance and call the function in files "quadconstr.m", "quadhess.m", and "quadobj.m".
+The output is a .txt file with the feasilibity indicator (errors in the approximation of the bianry variables) and the value of the objective function.
